@@ -8,12 +8,12 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  let year = (new Date()).getFullYear();
+  let year = new Date().getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Made with  &#9829; by David Oluwafemi</h3>
+          <h3>Made with &#9829; by David Oluwafemi</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} davisphem</h3>
@@ -24,30 +24,30 @@ function Footer() {
               <a
                 href="https://github.com/jay-davisphem"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillGithub size='1.5em'/>
+                <AiFillGithub size="1.5em" />
               </a>
             </li>
             <li className="social-icons">
               <a
                 href="https://twitter.com/oluw4femi"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter size='1.5em'/>
+                <AiOutlineTwitter size="1.5em" />
               </a>
             </li>
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/davisphem/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn size='1.5em'/>
+                <FaLinkedinIn size="1.5em" />
               </a>
             </li>
           </ul>

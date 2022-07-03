@@ -2,36 +2,45 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
+const Li = (val) => {
+  return (
+    <li className="about-activity">
+      <ImPointRight /> {val}
+    </li>
+  );
+};
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card className="quote-card-view ">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+          <p style={{ textAlign: "center", fontSize: '1.2em'}}>
+            I study Computer Engineering at Obafemi Awolowo University. I am presently in 300level with a CGPA of 4.59/5. <br />I love programming, expecially the challenging and practical/real-life ones.
+            I also help friends debug.<br /> My aim is to become very competent and dependable in my skillsets by learning from others and teaching others likewise.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            <p>Few extra activities about me: </p>
           </p>
-          <ul>
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              placeItems: "center",
+            }}
+          >
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Teaching Others
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> Learning new things and different ways to do things
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Reading martial arts and tech novel
             </li>
+            <li className="about-activity">
+                <ImPointRight /> Reading tech books and blogs
+              </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>

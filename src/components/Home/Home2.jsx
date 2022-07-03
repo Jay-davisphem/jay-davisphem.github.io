@@ -15,30 +15,32 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              I have a strong inner motivation to assertively create and implement new ideas. I am a team player, multi-tasker and strive to constantly exceed expectations
+            <h1 style={{ fontSize: "2.5em" }}>
+              I have a strong inner motivation to assertively create and
+              implement new ideas. I am a team player, multi-tasker and strive
+              to constantly exceed expectations
             </h1>
             <p className="home-about-body">
-              
               <br />I am very proficient with
               <i>
-                <b className="purple"> JavaScript, TypeScript, HTML, CSS and other web technologies. </b>
+                <b className="purple">
+                  {" "}
+                  JavaScript, TypeScript, HTML, CSS and other web technologies.{" "}
+                </b>
               </i>
               <br />
-              <br />
-              I love building scalable, robust and responsive web apps with modern
+              <br />I love building scalable, robust and responsive web apps
+              with modern
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also with other required and recommended technologies.
-                
               </i>
               <br />
               <br />
-            To be precise I am very proficient with {' '}
+              To be precise I am very proficient with{" "}
               <i>
                 <b className="purple">
-                  
-                  {'  '} Modern Javascript Library and Frameworks
+                  {"  "} Modern Javascript Library and Frameworks
                 </b>
               </i>
               &nbsp; like
@@ -64,7 +66,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub size='1.5em'/>
+                  <AiFillGithub size="1.5em" />
                 </a>
               </li>
               <li className="social-icons">
@@ -74,7 +76,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter size='1.5em'/>
+                  <AiOutlineTwitter size="1.5em" />
                 </a>
               </li>
               <li className="social-icons">
@@ -84,7 +86,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn size='1.5em' />
+                  <FaLinkedinIn size="1.5em" />
                 </a>
               </li>
             </ul>

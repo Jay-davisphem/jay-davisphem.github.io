@@ -254,19 +254,16 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
   color: ghostwhite;
   text-align: left;
 }
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
 }
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
 }
 
 .main-name {
@@ -311,7 +308,7 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-top: 20px !important;
 }
 
 .home-about-description {
@@ -546,12 +543,11 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 1px 1px 1px 1px white !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -565,7 +561,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid ghostwhite !important;
 }
 .tech-icon-images {
   padding: 20px !important;
