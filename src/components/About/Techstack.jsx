@@ -8,41 +8,57 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiDjango,
+  DiPostgresql
 } from "react-icons/di";
-import { SiPytorch, SiFirebase, SiNextdotjs } from "react-icons/si";
+import { SiFirebase, SiNextdotjs, SiShell } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiReact /> 
+        <div style={{fontSize: '.5em'}}>ReactJS</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiDjango />
+        <div style={{fontSize: '.5em'}}>Django</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <div style={{fontSize: '.5em'}}>NodeJS</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <div style={{fontSize: '.5em'}}>Next.js</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+        <div style={{fontSize: '.5em'}}>Python</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <DiJavascript1 />
+        <div style={{fontSize: '.5em'}}>JavaScript</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+        <div style={{fontSize: '.5em'}}>Postgres</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+        <div style={{fontSize: '.5em'}}>Mongodb</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <div style={{fontSize: '.5em'}}>Git</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+        <div style={{fontSize: '.5em'}}>C++</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiShell />
+        <div style={{fontSize: '.5em'}}>Shell Scripting</div>
       </Col>
     </Row>
   );

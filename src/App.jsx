@@ -14,7 +14,7 @@ import {
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
-import "./App.css";
+import "./app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
-    }, 12000);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);

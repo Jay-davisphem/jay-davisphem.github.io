@@ -28,12 +28,11 @@ function Home() {
                   padding: 0,
                 }}
               >
-                I am
-                <strong className="main-name"> DAVID OLUWAFEMI</strong>
+                I am{' '} <strong className="main-name">DAVID OLUWAFEMI</strong>{' '},
               </h1>
 
               <div style={{ textAlign: "left", marginTop: 20, padding: 0 }}>
-                <Type />
+              <Type />
               </div>
             </Col>
 

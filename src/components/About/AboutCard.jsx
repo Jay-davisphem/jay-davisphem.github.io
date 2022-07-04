@@ -14,6 +14,7 @@ function AboutCard() {
     <Card className="quote-card-view ">
       <Card.Body>
         <blockquote className="blockquote mb-0">
+          <h1>ReactJS, NodeJS and Django are my area of expertise!</h1>
           <p style={{ textAlign: "center", fontSize: '1.2em'}}>
             I study Computer Engineering at Obafemi Awolowo University. I am presently in 300level with a CGPA of 4.59/5. <br />I love programming, expecially the challenging and practical/real-life ones.
             I also help friends debug.<br /> My aim is to become very competent and dependable in my skillsets by learning from others and teaching others likewise.
