@@ -48,7 +48,7 @@ function Projects() {
             <ProjectCard 
               imgPath={readfullapi}
               isBlog={false}
-              title="Reafull Api"
+              title="Readfull Api"
               description="An api written in Django to support my upcoming frontend novel web app. It was built with Django, Django Rest Framework and Postgresql. I integrated heroku CI/CD pipeline."
               ghLink="https://github.com/jay-davisphem/creadfull-server/"
               demoLink="https://readfullapi.herokuapp.com/"
