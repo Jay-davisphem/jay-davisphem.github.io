@@ -7,7 +7,10 @@ import liru from "../../Assets/Projects/liru.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import newsfeeder from "../../Assets/Projects/newsfeeder.png";
 import todo from "../../Assets/Projects/todo.png";
-import notty from "../../Assets/Projects/notty.png";
+import notty from "../../Assets/Projects/notty.png"
+import monnymonsters from '../../Assets/Projects/monny-monsters.png'
+import readfullapi from '../../Assets/Projects/readfullapi.png'
+import conficon from '../../Assets/Projects/conficon.png'
 
 function Projects() {
   return (
@@ -21,6 +24,36 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard 
+              imgPath={monnymonsters}
+              isBlog={false}
+              title="Monny Monsters"
+              description="A responsive website built to showcase some skill in reactjs. It also hight my skills in using hooks in reactjs and to manage complex and time and space efficient search"
+              ghLink="https://github.com/jay-davisphem/monny-monsters"
+              demoLink="https://monny-monsters.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard 
+              imgPath={conficon}
+              isBlog={false}
+              title="Conficon Favicon Generator"
+              description="A webapp built by during an internship at Zuri inc. We made use of Django, JavaScript, Html and CSS. I handled 80% of the backend of the webapp and also made corrections to the frontend. I managed the whole projects using github projects, merging and resolving all sort of backend and frontend conflicts that arose."
+              ghLink="https://github.com/jay-davisphem/conficon2/"
+              demoLink="https://conficon.herokuapp.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard 
+              imgPath={readfullapi}
+              isBlog={false}
+              title="Reafull Api"
+              description="An api written in Django to support my upcoming frontend novel web app. It was built with Django, Django Rest Framework and Postgresql. I integrated heroku CI/CD pipeline."
+              ghLink="https://github.com/jay-davisphem/creadfull-server/"
+              demoLink="https://readfullapi.herokuapp.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={newsfeeder}
