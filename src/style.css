@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #FF6B6B;        /* Vibrant Coral */
-  --secondary-color: #4ECDC4;      /* Teal */
-  --accent-color: #FFE66D;         /* Soft Yellow */
-  --background-color: #1A535C;     /* Dark Cyan */
-  --text-color: #FFFFFF;           /* White for readability */
+  --primary-color: #52DEE5;        /* Bright Aqua - Great for primary accents and action elements */
+  --secondary-color: #297373;      /* Teal Green - Subtle, deep background for sections */
+  --accent-color: #7D7ABC;         /* Lavender Blue - Soft accent for buttons or callouts */
+  --background-color: #001427;     /* Deep Navy - Strong background, accessible contrast */
+  --text-color: #FCF7F8;           /* Soft White - Ideal for text readability on dark backgrounds */
 }
 
 html {
