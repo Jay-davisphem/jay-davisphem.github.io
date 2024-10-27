@@ -38,8 +38,7 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
-            <AiOutlineDownload />
-            &#128065;View CV in Google Docs
+            &#128065;&nbsp;View CV in Google Docs
           </Button>
           
         </Row>
