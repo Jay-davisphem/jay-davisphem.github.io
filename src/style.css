@@ -728,3 +728,37 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+
+
+
+.heading-tagline {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 10px;
+}
+
+.home-about-section {
+  padding: 40px 0;
+}
+
+.experience-section {
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+
+.experience-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.experience-card {
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-about-social-links li {
+  margin-bottom: 10px;
+}
+
