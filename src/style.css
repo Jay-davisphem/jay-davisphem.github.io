@@ -1,9 +1,15 @@
+:root {
+  --primary-color: #FF6B6B;        /* Vibrant Coral */
+  --secondary-color: #4ECDC4;      /* Teal */
+  --accent-color: #FFE66D;         /* Soft Yellow */
+  --background-color: #1A535C;     /* Dark Cyan */
+  --text-color: #FFFFFF;           /* White for readability */
+}
+
 html {
-  --section-background-color: white;
-
-  --image-gradient: white;
-
-  --imp-text-color: ghostwhite;
+  --section-background-color: var(--background-color);
+  --image-gradient: var(--primary-color);
+  --imp-text-color: var(--text-color);
 }
 
 .purple {
