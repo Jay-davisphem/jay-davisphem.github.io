@@ -43,24 +43,36 @@ function Home2() {
 
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>Connect with Me</h1>
+            <h1>CONNECT WITH ME ON</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a href="https://github.com/jay-davisphem" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                <a
+                  href="https://github.com/jay-davisphem"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
                   <AiFillGithub size="1.5em" />
-                  GitHub - Explore my projects and code repositories.
                 </a>
               </li>
               <li className="social-icons">
-                <a href="https://twitter.com/oluw4femi" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                <a
+                  href="https://twitter.com/oluw4femi"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
                   <AiOutlineTwitter size="1.5em" />
-                  Twitter - Follow me for insights and updates in tech.
                 </a>
               </li>
               <li className="social-icons">
-                <a href="https://linkedin.com/in/davisphem" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                <a
+                  href="https://www.linkedin.com/in/davisphem/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
                   <FaLinkedinIn size="1.5em" />
-                  LinkedIn - Let's connect professionally.
                 </a>
               </li>
             </ul>
