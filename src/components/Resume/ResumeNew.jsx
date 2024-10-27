@@ -22,7 +22,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", position: "relative", gap: "4px" }}>
           <Button
             variant="primary"
             href={pdf}
@@ -32,6 +32,16 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
+           <Button
+            variant="primary"
+            href={"https://docs.google.com/document/d/1Jd5lKufPbhVkkZFTLyQPQsoLsbuNbsqzRTIPHrxv9uc/edit?usp=sharing"}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &#128065;View CV in Google Docs
+          </Button>
+          
         </Row>
 
         <Row className="resume" style={{
