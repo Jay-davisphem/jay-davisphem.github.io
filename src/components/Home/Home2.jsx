@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -15,38 +11,27 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.5em" }}>
-              I have a strong inner motivation to assertively create and
-              implement new ideas. I am a team player, multi-tasker and strive
-              to constantly exceed expectations
-            </h1>
+            <h1 style={{ fontSize: "2.5em" }}>About Me</h1>
             <p className="home-about-body">
-              <br />I am very proficient with
+              I specialize in developing fullstack applications, leveraging my experience in
               <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, TypeScript, HTML, CSS and other web technologies.{" "}
-                </b>
-              </i>
-              <br />
-              <br />I love building scalable, robust and responsive web apps
-              with modern
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also with other required and recommended technologies.
+                <b className="purple"> JavaScript, TypeScript, React, Node.js, and Django</b>.
               </i>
               <br />
               <br />
-              To be precise I am very proficient with{" "}
+              With a background in 
+              <b className="purple"> building scalable and robust solutions</b>, I’ve successfully contributed to projects
+              that have improved efficiency and streamlined user experiences.
+              <br />
+              <br />
+              I am passionate about creating innovative and impactful web solutions using
               <i>
-                <b className="purple">
-                  {"  "} Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> modern web technologies and industry best practices.</b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              <br />
+              <br />
+              I am highly proficient with 
+              <b className="purple"> React.js, Next.js, and other modern JavaScript libraries and frameworks.</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -55,38 +40,27 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>CONNECT WITH ME ON</h1>
+            <h1>Connect with Me</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a
-                  href="https://github.com/jay-davisphem"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
+                <a href="https://github.com/jay-davisphem" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
                   <AiFillGithub size="1.5em" />
+                  GitHub - Explore my projects and code repositories.
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://twitter.com/oluw4femi"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
+                <a href="https://twitter.com/oluw4femi" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
                   <AiOutlineTwitter size="1.5em" />
+                  Twitter - Follow me for insights and updates in tech.
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/davisphem/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
+                <a href="https://linkedin.com/in/davisphem" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
                   <FaLinkedinIn size="1.5em" />
+                  LinkedIn - Let's connect professionally.
                 </a>
               </li>
             </ul>
@@ -96,4 +70,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
