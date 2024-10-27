@@ -1,16 +1,18 @@
 :root {
-  --primary-color: #52DEE5;        /* Bright Aqua - Great for primary accents and action elements */
-  --secondary-color: #297373;      /* Teal Green - Subtle, deep background for sections */
-  --accent-color: #7D7ABC;         /* Lavender Blue - Soft accent for buttons or callouts */
-  --background-color: #001427;     /* Deep Navy - Strong background, accessible contrast */
-  --text-color: #FCF7F8;           /* Soft White - Ideal for text readability on dark backgrounds */
+  --primary-color: #297373;       /* Dark Teal - Primary accent for actions and interactive elements */
+  --secondary-color: #001427;     /* Dark Navy - Core background color for deep, immersive contrast */
+  --accent-color: #7D7ABC;        /* Muted Indigo - Subtle contrast for secondary highlights and buttons */
+  --background-color: #FCF7F8;    /* Soft White for Background, Reversed in Dark Mode */
+  --text-color: #FCF7F8;          /* Soft White - Standard text for readability */
+  --highlight-color: #52DEE5;     /* Aqua Blue - Adds vibrancy for key visual interest points */
 }
 
 html {
-  --section-background-color: var(--background-color);
+  --section-background-color: var(--secondary-color);
   --image-gradient: var(--primary-color);
   --imp-text-color: var(--text-color);
 }
+
 
 .purple {
   color: var(--imp-text-color) !important;
