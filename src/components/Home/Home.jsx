@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import AboutCard from "../About/AboutCard";
 import Home2 from "./Home2";
 import Type from "./Type";
+import ExperienceHighlights from "./ExperienceHighlights";
 
 function Home() {
   return (
@@ -14,25 +15,27 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 10 }} className="heading">
+              <h1 className="heading">
                 Hi!
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
-              <h1
-                className="heading-name"
-                style={{
-                  margin: 0,
-                  padding: 0,
-                }}
-              >
-                I am{' '} <strong className="main-name">DAVID OLUWAFEMI</strong>{' '},
+              <h1 className="heading-name">
+                I am <strong className="main-name">DAVID OLUWAFEMI</strong>
               </h1>
 
-              <div style={{ textAlign: "left", marginTop: 20, padding: 0 }}>
-              <Type />
+              <p className="heading-description">
+                Fullstack Developer | Experienced with scalable web solutions using JavaScript, TypeScript, and modern web frameworks.
+              </p>
+
+              <h2 className="heading-tagline">
+                Transforming ideas into impactful digital experiences.
+              </h2>
+
+              <div style={{ textAlign: "left", marginTop: 20 }}>
+                <Type />
               </div>
             </Col>
 
@@ -47,7 +50,9 @@ function Home() {
           </Row>
         </Container>
       </Container>
+
       <AboutCard />
+      <ExperienceHighlights />
       <Home2 />
     </section>
   );
