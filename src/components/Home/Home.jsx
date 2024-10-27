@@ -29,7 +29,7 @@ function Home() {
               <p className="heading-description">
                 Fullstack Developer | Experienced with scalable web solutions using JavaScript, TypeScript, and modern web frameworks.
               </p>
-
+              <a href='https://coolors.co/?ref=6217acdeb4c9a6000a7cce18'></a>
               <h2 className="heading-tagline">
                 Transforming ideas into impactful digital experiences.
               </h2>
