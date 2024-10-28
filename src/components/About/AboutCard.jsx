@@ -17,7 +17,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <h1>My Expertise: ReactJS, NodeJS, and Django</h1>
           <p style={{ textAlign: "center", fontSize: '1.2em' }}>
-            I am Oluwafemi David, a passionate Computer Engineering student at Obafemi Awolowo University, currently in my 400 level with a CGPA of 4.59/5. I thrive on tackling challenging programming problems and enjoy building real-world applications. 
+            I am Oluwafemi David, a passionate Computer Engineering student at Obafemi Awolowo University, currently in my 500 level with a CGPA of 4.48/5. I thrive on tackling challenging programming problems and enjoy building real-world applications. 
             <br />
             My journey has included impactful experiences as a Junior Python Developer at Dowstrademus and a Software Engineering Intern at Zuri Inc., where I designed and deployed applications using modern frameworks and technologies.
             <br />
