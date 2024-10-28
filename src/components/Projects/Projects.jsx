@@ -11,6 +11,9 @@ import notty from "../../Assets/Projects/notty.png"
 import monnymonsters from '../../Assets/Projects/monny-monsters.png'
 import readfullapi from '../../Assets/Projects/readfullapi.png'
 import conficon from '../../Assets/Projects/conficon.png'
+import sandsstores from '../../Assets/Projects/sandsstores.png'
+import teknova from '../../Assets/Projects/teknova.png'
+import datnas from '../../Assets/Projects/datnas.png'
 
 function Projects() {
   return (
@@ -24,7 +27,37 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          <ProjectCard 
+              imgPath={teknova}
+              isBlog={false}
+              title="Teknova Ecommerce"
+              description="an e-commerce platform, using Next.js, Tailwind CSS on the frontend and nodejs/expressjs on the backend. Successfully deployed the backend on namecheap vps and the frontend on Vercel, designed intuitive UIs enhancing user experience, and optimized for high performance. Overcame complex challenges, elevating site reliability and user satisfaction, and managed seamless front-end deployment with custom domain setup on teknova.ng"
+              ghLink="Private"
+              demoLink="https://teknova.ng"
+            />
+          </Col>
           <Col md={4} className="project-card">
+          <ProjectCard 
+              imgPath={sandsstores}
+              isBlog={false}
+              title="Sandstores Ecommerce"
+              description="an e-commerce platform, using Next.js, Tailwind CSS, and Zustand. Successfully deployed the project on Vercel with AWS S3 integration, designed intuitive UIs enhancing user experience, and optimized for high performance. Overcame complex challenges, elevating site reliability and user satisfaction, and managed seamless front-end deployment with custom domain setup on sandsstores.com (they stopped paying for their hosting service)"
+              ghLink="Private"
+              demoLink="https://sandsstores.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard 
+              imgPath={datnas}
+              isBlog={false}
+              title="Datnas Learning Management system"
+              description="An innovative Learning Management System (LMS) designed to facilitate seamless online education. Utilized Express.js and TypeScript to build a robust backend, ensuring efficient data handling and user management. Integrated advanced features such as interactive course content, real-time notifications, and user analytics to enhance the learning experience. Focused on creating a responsive front-end with a user-friendly interface, ultimately driving student engagement and satisfaction."
+              ghLink="Private"
+              demoLink="https://teknova.vercel.app"
+            />
+          </Col>
+          <Col>
             <ProjectCard 
               imgPath={monnymonsters}
               isBlog={false}

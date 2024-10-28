@@ -8,8 +8,10 @@ import {
   SiVercel,
   SiInsomnia,
   SiVim,
-  SiCurl
+  SiCurl,
+  SiCloudflare
 } from "react-icons/si";
+import { FaAws } from 'react-icons/fa'
 
 function Toolstack() {
   return (
@@ -23,8 +25,16 @@ function Toolstack() {
         <div style={{fontSize: '.5em'}}>VIM</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiCloudflare />
+        <div style={{fontSize: '.5em'}}>VIM</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
-        <div style={{fontSize: '.5em'}}>VScode</div>
+        <div style={{fontSize: '.5em'}}>Cloudflare</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
+        <div style={{fontSize: '.5em'}}>AWS</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />

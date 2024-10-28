@@ -9,9 +9,9 @@ import {
   DiPython,
   DiGit,
   DiDjango,
-  DiPostgresql
+  DiPostgresql,
 } from "react-icons/di";
-import { SiFirebase, SiNextdotjs, SiShell } from "react-icons/si";
+import { SiFirebase, SiNextdotjs, SiShell, SiRemix } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -31,6 +31,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
         <div style={{fontSize: '.5em'}}>Next.js</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRemix />
+        <div style={{fontSize: '.5em'}}>Remix</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
