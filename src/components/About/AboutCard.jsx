@@ -2,26 +2,28 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
-const Li = (val) => {
+const Li = ({ children }) => {
   return (
     <li className="about-activity">
-      <ImPointRight /> {val}
+      <ImPointRight /> {children}
     </li>
   );
 };
+
 function AboutCard() {
   return (
-    <Card className="quote-card-view ">
+    <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <h1>ReactJS, NodeJS and Django are my area of expertise!</h1>
-          <p style={{ textAlign: "center", fontSize: '1.2em'}}>
-            I study Computer Engineering at Obafemi Awolowo University. I am presently in 300level with a CGPA of 4.59/5. <br />I love programming, expecially the challenging and practical/real-life ones.
-            I also help friends debug.<br /> My aim is to become very competent and dependable in my skillsets by learning from others and teaching others likewise.
+          <h1>My Expertise: ReactJS, NodeJS, and Django</h1>
+          <p style={{ textAlign: "center", fontSize: '1.2em' }}>
+            I am Oluwafemi David, a passionate Computer Engineering student at Obafemi Awolowo University, currently in my 400 level with a CGPA of 4.59/5. I thrive on tackling challenging programming problems and enjoy building real-world applications. 
             <br />
+            My journey has included impactful experiences as a Junior Python Developer at Dowstrademus and a Software Engineering Intern at Zuri Inc., where I designed and deployed applications using modern frameworks and technologies.
             <br />
-            <p>Few extra activities about me: </p>
+            My goal is to become a highly competent and dependable software engineer, continuously learning from experienced developers while sharing my knowledge with others.
           </p>
+          <p>Here are a few of my interests and activities:</p>
           <ul
             style={{
               display: "flex",
@@ -29,18 +31,10 @@ function AboutCard() {
               placeItems: "center",
             }}
           >
-            <li className="about-activity">
-              <ImPointRight /> Teaching Others
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Learning new things and different ways to do things
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Reading martial arts and tech novel
-            </li>
-            <li className="about-activity">
-                <ImPointRight /> Reading tech books and blogs
-              </li>
+            <Li>Teaching and mentoring peers in programming concepts</Li>
+            <Li>Exploring innovative approaches to problem-solving</Li>
+            <Li>Reading tech-related books and blogs</Li>
+            <Li>Engaging with martial arts literature for discipline and focus</Li>
           </ul>
         </blockquote>
       </Card.Body>
